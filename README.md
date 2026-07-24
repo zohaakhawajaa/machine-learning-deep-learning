@@ -1,6 +1,8 @@
 # Machine Learning Algorithms
 
-A curated collection of machine learning notebooks covering core concepts, preprocessing, classification, regression, clustering, model evaluation, and ensemble methods.
+This repository is a hands-on collection of Jupyter notebooks for learning and practicing machine learning algorithms. It includes examples for regression, classification, clustering, preprocessing, model evaluation, hyperparameter tuning, and ensemble methods using Python and scikit-learn.
+
+The goal of this project is to provide a clear and structured learning path for beginners and intermediate learners who want to understand how common machine learning techniques work in practice.
 
 ## Repository Structure
 
