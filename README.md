@@ -1,9 +1,9 @@
-# Machine Learning and Deep Learning Algorithms
+# Machine Learning, Deep Learning and NLP Algorithms
 
-A hands-on notebook repository for learning machine learning, deep learning,
-computer vision, natural language processing, and time-series algorithms.
-The layout follows a progression from classical machine learning to neural
-networks and sequence models.
+A structured, hands-on learning repository containing Jupyter notebooks for
+classical machine learning, deep learning, computer vision, and natural
+language processing. It includes implemented algorithms, experiments, and a
+clear roadmap for topics that will be added next.
 
 ## Repository Structure
 
@@ -27,8 +27,8 @@ machine-learning-deep-learning/
 |   |-- neural-networks/
 |   |-- cnn/
 |   |-- rnn/
-|   |-- lstm/
-|   |-- gru/
+|   |-- lstm/                 # Planned
+|   |-- gru/                  # Planned
 |
 |-- nlp/
 |   |-- tfidf/
@@ -49,6 +49,8 @@ machine-learning-deep-learning/
   and OpenCV camera workflows.
 - `deep-learning/rnn/`: SimpleRNN examples and an imbalanced classification
   experiment.
+- `deep-learning/lstm/` and `deep-learning/gru/`: planned sequence-model
+  implementations; these topics have not been added yet.
 
 ### NLP
 
@@ -60,10 +62,11 @@ machine-learning-deep-learning/
 
 ### Classical machine learning and time series
 
-The classical machine-learning and time-series directories are intentionally
-present as an organized roadmap. Add one notebook per algorithm with sections
-for the idea, data preparation, training, evaluation, and a short conclusion.
-This keeps unfinished topics visible without presenting them as implemented.
+The classical machine-learning and time-series directories contain the
+scikit-learn notebooks imported from the original machine-learning repository,
+along with roadmap folders for algorithms still to be added. Add one notebook
+per algorithm with sections for the idea, data preparation, training,
+evaluation, and a short conclusion.
 
 ## Setup
 
@@ -89,7 +92,8 @@ and camera permissions may be required.
 2. Continue with `deep-learning/cnn/` for image data.
 3. Study `nlp/text-vectorization/` before the text-classification notebook.
 4. Continue with `deep-learning/rnn/` and the NLP recurrent classifier.
-5. Fill the classical ML and time-series roadmap as new notebooks are added.
+5. Add and study LSTM and GRU after the RNN foundations.
+6. Continue expanding the time-series roadmap.
 
 ## Notes
 
