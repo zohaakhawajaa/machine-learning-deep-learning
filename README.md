@@ -1,103 +1,151 @@
-# machine-learning-deep-learning
+# Machine Learning & Deep Learning
 
-A structured, hands-on learning repository containing Jupyter notebooks for
-classical machine learning, deep learning, computer vision, and natural
-language processing. It includes implemented algorithms, experiments, and a
-clear roadmap for topics that will be added next.
+A structured, hands-on learning repository documenting my journey through classical machine learning, deep learning, computer vision, natural language processing, and time-series analysis.
+
+The repository contains Jupyter notebooks, implementations, experiments, and practical exercises focused on understanding concepts through code.
 
 ## Repository Structure
 
 ```text
 machine-learning-deep-learning/
-|
-|-- supervised-learning/
-|   |-- linear-regression/
-|   |-- logistic-regression/
-|   |-- decision-tree/
-|   |-- random-forest/
-|   |-- xgboost/
-|
-|-- unsupervised-learning/
-|   |-- kmeans/
-|   |-- pca/
-|   |-- dbscan/
-|   |-- optics/
-|
-|-- deep-learning/
-|   |-- neural-networks/
-|   |-- cnn/
-|   |-- rnn/
-|   |-- lstm/                 # Planned
-|   |-- gru/                  # Planned
-|
-|-- nlp/
-|   |-- tfidf/
-|   |-- text-vectorization/
-|   |-- embeddings/
-|   |-- rnn-text-classification/
-|
-|-- time-series/
+│
+├── supervised-learning/
+│   ├── linear-regression/
+│   ├── logistic-regression/
+│   ├── decision-tree/
+│   ├── random-forest/
+│   └── xgboost/
+│
+├── unsupervised-learning/
+│   ├── kmeans/
+│   ├── pca/
+│   ├── dbscan/
+│   └── optics/
+│
+├── deep-learning/
+│   ├── neural-networks/
+│   ├── cnn/
+│   ├── rnn/
+│   ├── lstm/
+│   └── gru/
+│
+├── nlp/
+│   ├── tfidf/
+│   ├── text-vectorization/
+│   ├── embeddings/
+│   └── rnn-text-classification/
+│
+└── time-series/
 ```
 
-## Current Implementations
+## Topics Covered
 
-### Deep learning
+### Machine Learning
 
-- `deep-learning/neural-networks/`: a first neural network, multilayer
-  perceptron, and MNIST classification notebooks.
-- `deep-learning/cnn/`: CNN examples for image classification, Fashion-MNIST,
-  and OpenCV camera workflows.
-- `deep-learning/rnn/`: SimpleRNN examples and an imbalanced classification
-  experiment.
-- `deep-learning/lstm/` and `deep-learning/gru/`: planned sequence-model
-  implementations; these topics have not been added yet.
+* Linear Regression
+* Logistic Regression
+* Decision Trees
+* Random Forest
+* XGBoost
+* K-Means Clustering
+* PCA
+* DBSCAN
+* OPTICS
+* Model evaluation and preprocessing
 
-### NLP
+### Deep Learning
 
-- `nlp/text-vectorization/`: text preprocessing and vectorization experiments.
-- `nlp/rnn-text-classification/`: binary text classification using a
-  `TextVectorization` layer and recurrent models.
-- `nlp/tfidf/` and `nlp/embeddings/`: reserved for focused implementations of
-  TF-IDF and learned word representations.
+* Neural Networks
+* Multilayer Perceptrons
+* MNIST Classification
+* Convolutional Neural Networks (CNNs)
+* Recurrent Neural Networks (RNNs)
+* Long Short-Term Memory (LSTM)
+* Gated Recurrent Units (GRUs)
 
-### Classical machine learning and time series
+### Computer Vision
 
-The classical machine-learning and time-series directories contain the
-scikit-learn notebooks imported from the original machine-learning repository,
-along with roadmap folders for algorithms still to be added. Add one notebook
-per algorithm with sections for the idea, data preparation, training,
-evaluation, and a short conclusion.
+* CNN-based image classification
+* Fashion-MNIST
+* Image preprocessing
+* OpenCV
+* YOLO-based computer vision experiments
+
+### Natural Language Processing
+
+* TF-IDF
+* Text Vectorization
+* Tokenization and vocabulary
+* Word embeddings
+* RNN-based text classification
+
+### Time Series
+
+Topics and implementations will be added as I progress through time-series analysis and forecasting.
+
+## Learning Approach
+
+Each notebook focuses on understanding the concept through implementation and experimentation.
+
+Where applicable, notebooks follow:
+
+```text
+Concept
+   ↓
+Data Preparation
+   ↓
+Preprocessing
+   ↓
+Model Building
+   ↓
+Training
+   ↓
+Evaluation
+   ↓
+Conclusion
+```
+
+## Learning Roadmap
+
+```text
+Classical Machine Learning
+          ↓
+Deep Learning Fundamentals
+          ↓
+CNN
+          ↓
+RNN
+          ↓
+LSTM
+          ↓
+GRU
+          ↓
+NLP
+          ↓
+Time Series
+```
 
 ## Setup
 
-Create and activate a virtual environment, then install the dependencies:
+Create and activate a virtual environment, then install the required dependencies:
 
 ```bash
 python -m venv .venv
 
 # Windows PowerShell
-.venv\\Scripts\\Activate.ps1
+.venv\Scripts\Activate.ps1
 
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Open the notebooks in VS Code or Jupyter and run cells from top to bottom.
-Some notebooks use TensorFlow and OpenCV, so a compatible Python environment
-and camera permissions may be required.
+Open the notebooks using VS Code or Jupyter and run the cells from top to bottom.
 
-## Learning Order
-
-1. Start with `deep-learning/neural-networks/`.
-2. Continue with `deep-learning/cnn/` for image data.
-3. Study `nlp/text-vectorization/` before the text-classification notebook.
-4. Continue with `deep-learning/rnn/` and the NLP recurrent classifier.
-5. Add and study LSTM and GRU after the RNN foundations.
-6. Continue expanding the time-series roadmap.
+Some notebooks use TensorFlow and OpenCV and may require additional system or hardware configuration.
 
 ## Notes
 
-- Dataset files, model checkpoints, virtual environments, and notebook runtime
-  output should remain untracked.
-- The examples are educational and use small datasets; their metrics should
-  not be treated as production benchmarks.
+* Dataset files, model checkpoints, virtual environments, and notebook runtime outputs should remain untracked.
+* The notebooks are primarily educational and use small datasets for experimentation.
+* Reported metrics should not be interpreted as production benchmarks.
+* The repository will continue to evolve as new concepts and implementations are added.
