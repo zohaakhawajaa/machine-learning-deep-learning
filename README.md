@@ -1,4 +1,4 @@
-# Machine Learning, Deep Learning and NLP Algorithms
+# machine-learning-deep-learning
 
 A structured, hands-on learning repository containing Jupyter notebooks for
 classical machine learning, deep learning, computer vision, and natural
