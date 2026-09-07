@@ -36,6 +36,10 @@ machine-learning-deep-learning/
 │   └── rnn-text-classification/
 │
 └── time-series/
+   └── airline-passenger-forecasting/
+      ├── airline_passenger_forecasting.ipynb
+      ├── AirPassengers.csv
+      └── README.md
 ```
 
 ## Topics Covered
@@ -81,7 +85,10 @@ machine-learning-deep-learning/
 
 ### Time Series
 
-Topics and implementations will be added as I progress through time-series analysis and forecasting.
+* [Airline Passengers Time Series Forecasting](time-series/airline-passenger-forecasting/)
+   * Trend and seasonality analysis
+   * Seasonal decomposition and stationarity testing
+   * Lag-feature forecasting with linear regression
 
 ## Learning Approach
 
