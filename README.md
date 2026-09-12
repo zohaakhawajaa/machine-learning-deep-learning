@@ -35,11 +35,16 @@ machine-learning-deep-learning/
 │   ├── embeddings/
 │   └── rnn-text-classification/
 │
-└── time-series/
+├── time-series/
    └── airline-passenger-forecasting/
       ├── airline_passenger_forecasting.ipynb
       ├── AirPassengers.csv
       └── README.md
+
+└── data-collection/
+   └── web-scraping/
+      ├── web-scraping.ipynb
+      └── stock-market-data.ipynb
 ```
 
 ## Topics Covered
@@ -89,6 +94,13 @@ machine-learning-deep-learning/
    * Trend and seasonality analysis
    * Seasonal decomposition and stationarity testing
    * Lag-feature forecasting with linear regression
+
+### Data Collection
+
+* Web scraping with `requests` and BeautifulSoup
+* Retrieving historical stock market data with `yfinance`
+
+The web-scraping notebooks are available in [data-collection/web-scraping](data-collection/web-scraping/).
 
 ## Learning Approach
 
