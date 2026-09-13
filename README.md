@@ -94,6 +94,14 @@ machine-learning-deep-learning/
    * Trend and seasonality analysis
    * Seasonal decomposition and stationarity testing
    * Lag-feature forecasting with linear regression
+* [Google Stock ARIMA and SARIMA Forecasting](time-series/google-arima-sarima/)
+   * Stationarity testing and differencing
+   * ARIMA and SARIMA forecasting
+   * ACF/PACF analysis and model evaluation
+* [Weather Forecasting with Prophet](time-series/prophet-weather-forecasting/)
+   * Daily climate data exploration
+   * Prophet forecasting and evaluation
+   * Forecast components and changepoint analysis
 
 ### Data Collection
 
