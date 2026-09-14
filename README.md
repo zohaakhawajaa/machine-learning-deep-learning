@@ -51,6 +51,7 @@ machine-learning-deep-learning/
 
 ### Machine Learning
 
+* [Bike Rental Demand Prediction](supervised-learning/linear-regression/bike-rental-demand-prediction/)
 * Linear Regression
 * Logistic Regression
 * Decision Trees
