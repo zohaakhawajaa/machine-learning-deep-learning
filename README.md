@@ -1,7 +1,4 @@
 # Machine Learning & Deep Learning
-├── overfitting_underfitting.ipynb
-│
-Overfitting and underfitting
 
 A structured, hands-on learning repository documenting my journey through classical machine learning, deep learning, computer vision, natural language processing, and time-series analysis.
 
@@ -180,3 +177,8 @@ Some notebooks use TensorFlow and OpenCV and may require additional system or ha
 * The notebooks are primarily educational and use small datasets for experimentation.
 * Reported metrics should not be interpreted as production benchmarks.
 * The repository will continue to evolve as new concepts and implementations are added.
+
+
+## Recent Addition
+
+- [Overfitting and underfitting](./overfitting_underfitting.ipynb): examples of model complexity, regularization, validation, and cross-validation.
